@@ -71,6 +71,7 @@ height: 568px;
 position: absolute;
 top: 124px;
 right: 5px;
+z-index: -1;
 }
 
 .header__span-accent {
@@ -131,7 +132,7 @@ right: 5px;
   color: #ffffff;
 }
 
-.recipes__video {
+.recipes__videos {
   display: flex;
   gap: 40px;
   max-width: 480px;
