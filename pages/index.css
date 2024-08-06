@@ -65,6 +65,13 @@ font-style: normal;
 font-family: "Noto Serif",Times,serif;
 
 }
+.header__image {
+width: 646px;
+height: 568px;
+position: absolute;
+top: 124px;
+right: 5px;
+}
 
 .header__span-accent {
   display: block;
@@ -142,6 +149,9 @@ font-family: "Noto Serif",Times,serif;
   justify-content: space-between;
 }
 
+.recipes__iframe {
+  border: none;
+}
 
 
 
