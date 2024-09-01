@@ -1,7 +1,7 @@
 .nav__logo {
     position: relative;
-    left: 30px;
-    top: -30px;
+    right: 30px;
+    top: 0px;
     width: 105px;
     height: 39px;
   }
@@ -19,8 +19,9 @@
     gap: 20px;
     text-decoration: none;
     color: black;
+    transition: color 1s linear none;
   }
 
-  .nav__links:hover {
+  .nav__links li:hover {
     color: #2F80ED;
   }
